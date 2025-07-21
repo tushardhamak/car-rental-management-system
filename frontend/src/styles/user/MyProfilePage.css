@@ -1,0 +1,98 @@
+.my-profile-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  background: #f6fafd;
+}
+
+.profile-card,
+.licence-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.profile-header,
+.licence-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-fields label,
+.licence-fields label {
+  display: block;
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+  color: #2b2d42;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.7rem;
+  margin-top: 0.2rem;
+  border-radius: 5px;
+  border: 1px solid #cfd8dc;
+  background: #f8fafb;
+  font-size: 1rem;
+}
+
+.profile-edit-btn,
+.profile-save-btn,
+.profile-cancel-btn {
+  margin-left: 0.6rem;
+  padding: 0.4rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  background: #1976d2;
+  color: #fff;
+  transition: background 0.18s;
+}
+
+.profile-save-btn {
+  background: #388e3c;
+}
+
+.profile-cancel-btn {
+  background: #d32f2f;
+}
+
+.profile-edit-btn:hover,
+.profile-save-btn:hover,
+.profile-cancel-btn:hover {
+  background: #125299;
+}
+
+.licence-image-preview {
+  width: 75%;           /* Image takes up 80% of the card's width */
+  height: auto;         /* Maintain correct aspect ratio */
+  object-fit: contain;  /* Always show the whole image */
+  border-radius: 6px;
+  border: 1px solid #d7dde6;
+  display: block;
+}
+
+
+.licence-image-card {
+  background: #f9fbff;
+  border: 2px solid #2979ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(41,121,255,0.10), 0 1.5px 6px rgba(0,0,0,0.03);
+  padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 525px;
+
+  margin: 1rem 0;
+}
+
